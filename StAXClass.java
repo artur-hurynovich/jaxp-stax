@@ -44,7 +44,9 @@ class Car {
         }
         @Override
         public String toString() {
-            return date.toGregorianCalendar().toZonedDateTime().toLocalDate().format(DateTimeFormatter.ofLocalizedDate(FormatStyle.MEDIUM)) + ", " + engineCapacity + " (" + engineType + ")";
+            return date.toGregorianCalendar().toZonedDateTime().toLocalDate().
+                format(DateTimeFormatter.ofLocalizedDate(FormatStyle.MEDIUM)) + ", " + 
+                engineCapacity + " (" + engineType + ")";
         }
     }
     void setMark(String mark) {
@@ -171,6 +173,5 @@ public class StAXClass {
         catch (IOException |XMLStreamException e) {
             e.printStackTrace();
         }
-
     }
 }
