@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<cars>
+<car>
+	<mark>Toyota</mark>
+	<model>FJCruiser</model>
+	<characteristics>
+		<date>2017-07-05</date>
+		<engineCapacity>4.7</engineCapacity>
+		<engineType>Gasoline</engineType>
+	</characteristics>
+</car>
+<car>
+	<mark>Ford</mark>
+	<model>F-150</model>
+	<characteristics>
+		<date>2015-03-19</date>
+		<engineCapacity>6.0</engineCapacity>
+		<engineType>Gasoline</engineType>
+	</characteristics>
+</car>
+<car>
+	<mark>Mercedes</mark>
+	<model>E320</model>
+	<characteristics>
+		<date>2005-02-21</date>
+		<engineCapacity>3.2</engineCapacity>
+		<engineType>Diesel</engineType>
+	</characteristics>
+</car>
+<car>
+	<mark>Dodge</mark>
+	<model>Charger</model>
+	<characteristics>
+		<date>2012-12-31</date>
+		<engineCapacity>5.0</engineCapacity>
+		<engineType>Gasoline</engineType>
+	</characteristics>
+</car>
+</cars>
